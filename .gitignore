@@ -9,3 +9,12 @@ GTAGS
 
 # ignore build object
 *.o
+
+# ignore configuration tools and temporary files
+cfg/Makefile.depend
+cfg/cfg
+cfg/chk
+
+# ignore build files
+build/*
+
