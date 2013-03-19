@@ -1,0 +1,10 @@
+
+README
+
+  本プロジェクトはToppers/JSPの学習を行うための個人用。
+
+  Toppers/JSPカーネル Release 1.4.4 (完全版) をベースに手を加える。
+  なお、Releaseパッケージから学習に不要なファイルは削除している。
+  また文字コードはUTF-8に変更している。
+
+  Toppersプロジェクト : http://www.toppers.jp/
