@@ -1,0 +1,11 @@
+#
+# git ignore file for toppers-jps
+#
+
+# ignore tag files
+GPATH
+GRTAGS
+GTAGS
+
+# ignore build object
+*.o
