@@ -8,3 +8,26 @@ README
   また文字コードはUTF-8に変更している。
 
   Toppersプロジェクト : http://www.toppers.jp/
+
+  ------------------------------------------------------------
+
+  ディレクトリ構成
+    README         : 本ファイル
+    README.toppers : Toppers/JSPカーネルReleaseに含まれるREADME
+    .gitignore     : Gitで無視するファイル指定
+    (その他)       : Toppers/JSPカーネルReleaseに含まれるファイル/ディレクトリ
+
+  ------------------------------------------------------------
+
+  ビルド手順メモ (簡易版 - 詳細はdoc/user.txtを参照)
+    コンフィグレーションツールのビルド
+      $ cd cfg/
+      $ make depend
+      $ make
+
+    サンプルプログラムのビルド
+      $ mkdir build/
+      $ cd build/
+      $ ../configure -C linux
+      $ make depend
+      $ make
