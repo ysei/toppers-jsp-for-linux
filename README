@@ -31,3 +31,10 @@ README
       $ ../configure -C linux
       $ make depend
       $ make
+
+  ------------------------------------------------------------
+
+  タグ情報
+    v0.0  : Toppers/JSPから持ってきたもの。変更を加えていない。
+
+    *タグは注釈付きタグで作成 $ git tag -a (version) -m (comment)
