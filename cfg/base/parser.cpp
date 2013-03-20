@@ -618,8 +618,10 @@ enum Token::tagTokenType Parser::getToken(Token & token, bool allow_space)
             return (token.type = Token::EOS);
         }
 
+        ch = getChar();
+
             //カレントのストリームが空になった
-        if(current->stream->eof())
+        if (ch == -1)
         {
                 //ファイルスタックから次のストリームを取る
             if(!fileStack.empty())
@@ -636,8 +638,6 @@ enum Token::tagTokenType Parser::getToken(Token & token, bool allow_space)
                 return (token.type = Token::EOS);
             }
         }
-
-        ch = getChar();
 
             //First(whitespaces) is [ \n\t\r/#]
         if( (ch == ' ') || (ch == '\t') || (ch == '\n') || (ch == '\r') || (ch == '/') || (isHeadofLine && ch == '#'))
