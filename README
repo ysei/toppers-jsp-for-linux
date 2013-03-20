@@ -15,7 +15,7 @@ README
     README         : 本ファイル
     README.toppers : Toppers/JSPカーネルReleaseに含まれるREADME
     .gitignore     : Gitで無視するファイル指定
-    (その他)       : Toppers/JSPカーネルReleaseに含まれるファイル/ディレクトリ
+    (その他)        : Toppers/JSPカーネルReleaseに含まれるファイル/ディレクトリ
 
   ------------------------------------------------------------
 
